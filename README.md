@@ -51,6 +51,13 @@ On a real 4.8 GB session history (Windows laptop, November 2026):
 
 Full guide: [docs/INSTALL.md](docs/INSTALL.md).
 
+## Agent skill
+
+[`skills/roam/SKILL.md`](skills/roam/SKILL.md) is a free skill that tells your agent when to use
+Roam: `roam_resume` at the start of a session, `roam_search` before asking you about past work,
+and `roam_send` / `roam_inbox` to hand work between agents. Drop the `roam` folder into your
+agent's skills folder (for Claude Code: `~/.claude/skills/`). It needs Roam installed.
+
 ## Platforms
 
 - **Windows 10/11:** supported.
