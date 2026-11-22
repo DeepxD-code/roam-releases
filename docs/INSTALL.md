@@ -16,10 +16,10 @@ Roam pushes to it with your existing git credentials. (Somewhere else? Clone it 
 run `setx ROAM_RELAY_ROOT "<that folder>"`, then open a new terminal.)
 
 ## 2. Install
-1. Download `roam-setup-x64-2.5.0.exe` from the [latest release](https://github.com/DeepxD-code/roam-releases/releases/latest).
+1. Download `roam-setup-x64-2.5.1.exe` from the [latest release](https://github.com/DeepxD-code/roam-releases/releases/latest).
 2. Optional: check the file against the published SHA-256:
    ```powershell
-   (Get-FileHash .\roam-setup-x64-2.5.0.exe -Algorithm SHA256).Hash.ToLower()
+   (Get-FileHash .\roam-setup-x64-2.5.1.exe -Algorithm SHA256).Hash.ToLower()
    ```
 3. Run it. SmartScreen will say "Windows protected your PC" because the installer isn't
    code-signed yet: choose **More info → Run anyway**.

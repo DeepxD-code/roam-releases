@@ -19,7 +19,7 @@ Optionally, between paired machines. Otherwise your private repo's access contro
 Not at the moment. This repo has documentation and release builds; issues are welcome.
 
 **Mac / Linux?**
-Builds pass CI on macOS and Ubuntu, but installers aren't published yet. Open an issue if you'd use one.
+Preview builds for macOS (Apple Silicon) and Linux x64 come with every release since 2.5.1, tested in CI on real macOS and Ubuntu machines. Setup steps: [INSTALL-MAC-LINUX.md](INSTALL-MAC-LINUX.md). No Intel Mac or Linux arm64 build yet.
 
 **Windows flagged the installer.**
 It isn't code-signed yet. The SHA-256 is published with every release so you can verify the file.

@@ -9,7 +9,7 @@ anything older, and agents can leave each other signed notes.
 
 No Roam server. No account. Your sessions only ever go to your own repo.
 
-**[Download for Windows (v2.5.0)](https://github.com/DeepxD-code/roam-releases/releases/latest)** ·
+**[Download for Windows (v2.5.1)](https://github.com/DeepxD-code/roam-releases/releases/latest)** ·
 [Website](https://roam-rho-gold.vercel.app) · [Install guide](docs/INSTALL.md) ·
 [Privacy](docs/PRIVACY.md) · [FAQ](docs/FAQ.md) · [Changelog](CHANGELOG.md)
 
@@ -44,7 +44,7 @@ On a real 4.8 GB session history (Windows laptop, November 2026):
 
 1. Make a **private repo** on GitHub (or anywhere git can push) and clone it:
    `git clone <your-private-repo-url> $HOME\roam-relay`
-2. Download `roam-setup-x64-2.5.0.exe` from [Releases](https://github.com/DeepxD-code/roam-releases/releases/latest) and run it.
+2. Download `roam-setup-x64-2.5.1.exe` from [Releases](https://github.com/DeepxD-code/roam-releases/releases/latest) and run it.
    Windows SmartScreen will warn once: the installer isn't code-signed yet. Verify it with the published SHA-256 if you like.
 3. The setup finds your agents and asks which to capture.
 4. Work as usual. On your other machine: clone the same repo to `$HOME\roam-relay`, install, run `roam resume`.
@@ -61,7 +61,7 @@ agent's skills folder (for Claude Code: `~/.claude/skills/`). It needs Roam inst
 ## Platforms
 
 - **Windows 10/11:** supported.
-- **macOS / Linux:** builds pass CI, but installers aren't published yet. [Open an issue](https://github.com/DeepxD-code/roam-releases/issues/new/choose) if you'd use one; it tells me what to prioritise.
+- **macOS (Apple Silicon) / Linux x64:** preview builds on every release, tested in CI on real macOS and Ubuntu machines. See [docs/INSTALL-MAC-LINUX.md](docs/INSTALL-MAC-LINUX.md). The guided setup hasn't been run on a real Mac or Linux desktop yet, so [tell me](https://github.com/DeepxD-code/roam-releases/issues/new/choose) if anything breaks.
 
 ## Free and Pro
 

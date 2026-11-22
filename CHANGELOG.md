@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.5.1 — November 2026
+- Messages between agents on the same machine never go through git: they are written straight to a local mail folder next to roam.json, with no pull, push or commit (about 5 s before, now a file write).
+- Every machine keeps its own copy of every message it sends or receives, outside git. Git is only the delivery route between machines.
+- Acking or handling only same-machine mail no longer triggers a git sync.
+- macOS (Apple Silicon) and Linux x64 preview builds are now attached to each release. See docs/INSTALL-MAC-LINUX.md.
+
 ## 2.5.0 — November 2026
 - Search stays light on big, old histories: the index reads old diaries one file at a time and no longer keeps whole files in memory. On a 4.8 GB history, building the index went from over 4 GB of RAM to 1.2 GB (78 s), and reading results for a very common word from over 3 GB to 1.5 GB.
 - Showing one old session reads only that session's bytes, not the project's whole diary.
